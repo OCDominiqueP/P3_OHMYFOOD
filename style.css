@@ -280,17 +280,6 @@ footer h3:hover {
     transform: translateX(-5%);
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg); } }
-@keyframes headshake {
-  0% {
-    -webkit-transform: translateX(5%);
-    transform: translateX(5%);
-    -webkit-transform: rotate(3deg);
-    transform: rotate(3deg); }
-  100% {
-    -webkit-transform: translateX(-5%);
-    transform: translateX(-5%);
-    -webkit-transform: rotate(-3deg);
-    transform: rotate(-3deg); } }
 /* la note enchantée */
 #carte_1 {
   background-color: #fcdfdb;
@@ -331,7 +320,7 @@ footer h3:hover {
   @media (max-width: 767px) {
     .titre_menu h2 {
       font-size: 2em;
-      margin-bottom: Oem; } }
+      margin-bottom: 0em; } }
 
 .menu_section {
   height: 320px;
@@ -376,6 +365,9 @@ footer h3:hover {
       margin-left: 10px;
       font-size: 15px;
       margin-right: 10px; } }
+  @media (min-width: 767px) and (max-width: 1023px) {
+    .repas {
+      margin-left: 10px; } }
 
 .cartes .plats h4 {
   /*titres*/
@@ -444,7 +436,8 @@ footer h3:hover {
 
 .titre_bas {
   /* titre bas de page */
-  font-size: 0.8em;
+  font-size: 1.4em;
+  margin-bottom: auto;
   font-family: 'devonshire', serif;
   color: #3c1218; }
   @media (max-width: 767px) {
@@ -506,7 +499,8 @@ footer h3:hover {
 
 .menu_section2 {
   height: 350px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: 100%; }
   @media (max-width: 767px) {
     .menu_section2 {
       width: 100%;
@@ -745,7 +739,6 @@ footer h3:hover {
       margin-left: 5px;
       width: 300px;
       font-size: 14px;
-      line-height: em;
       text-align: justify; } }
   @media (min-width: 767px) and (max-width: 1023px) {
     .menu_3 {
@@ -769,16 +762,16 @@ footer h3:hover {
       margin-right: 1.2em;
       font-size: 1.2em; } }
 
-#subtitle_4 {
+.title_3 {
   font-family: 'Dancing Script', serif;
-  font-size: 1.6em;
+  font-size: 1.3em;
   margin-top: 5px;
   font-style: italic;
   color: RGB(70, 80, 80); }
   @media (max-width: 767px) {
-    #subtitle_4 {
+    .title_3 {
       font-size: 14px;
-      margin-top: 10px; } }
+      margin-top: 1px; } }
 
 /*La palette du gout */
 #carte_4 {
@@ -879,14 +872,13 @@ footer h3:hover {
       margin-right: 1.2em;
       font-size: 1.2em; } }
 
-#subtitle_5 {
+.title_5 {
   font-family: 'Kalam', serif;
-  font-size: 1.6em;
-  margin-top: 5px;
+  font-size: 1.5em;
   font-style: italic;
   color: RGB(70, 80, 80); }
   @media (max-width: 767px) {
-    #subtitle_5 {
+    .title_5 {
       font-size: 14px;
       margin-top: 10px; } }
 
