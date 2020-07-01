@@ -371,7 +371,7 @@ footer h3:hover {
 }
 
 /*soulignement des sous-titres*/
-.cartes .plats h4 span {
+.plats h4 span {
   background-color: #3c1218;
   position: absolute;
   left: 0px;
@@ -379,14 +379,19 @@ footer h3:hover {
   width: 100%;
   height: 1px;
   -webkit-transform-origin: left;
+    -ms-transform-origin: left;
           transform-origin: left;
   
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
 }
 
-.trait { /*element deco*/
-    height: 40px;  
+/*soulignement des sous-titres*/
+.cartes .plats h4:hover > span {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .repas { /*texte repas*/
@@ -416,14 +421,6 @@ footer h3:hover {
     }
 }
 
-/*trait souligné*/
-.cartes .plats h4:hover > span {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-
 .plats { /*alignement plats*/
     display: -webkit-box;
     display: -ms-flexbox;
@@ -431,7 +428,7 @@ footer h3:hover {
     Justify-content: space-between;
 }
 
-.trait { 
+.trait { /*element deco*/
     width: 30%;
 }
 
@@ -570,9 +567,6 @@ footer h3:hover {
           transform: scaleX(0);
 }
 
-.subtitle h4 span{
-    background-color: skyblue;
-}
 .trait_m2 { /*element deco*/
     width: 25%;
         @include tablet { 
@@ -759,25 +753,34 @@ footer h3:hover {
     }
 }
 
-/*soulignement des titres*/
-.carte3 .plats h4 span {
-  background-color: #000000;
+/*soulignement des sous-titres*/
+.plats h4 span {
+    background-color: #000000;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    
   -webkit-transform-origin: left;
       -ms-transform-origin: left;
           transform-origin: left;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 1px;
-  -webkit-transform-origin: left;
-    transform-origin: left;
+  
     -webkit-transform: scaleX(0);
     transform: scaleX(0); 
 }
 
+/*soulignement des sous-titres*/
+.cartes .plats h4:hover > span {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  
+}
+
 .trait3 { /*element deco*/
-    width: 35%;
+    width: 30%;
         @include mobile {
             width: 25%;
         }
@@ -823,18 +826,19 @@ footer h3:hover {
             font-size: 1.2em;   
     }
 }
-
-.title_3 {
-    font-family: 'Dancing Script', serif;
-    font-size: 1.3em;
-    margin-top: 5px;
-    font-style: italic;
-    color : RGB(70, 80, 80);
-        @include mobile {
-            font-size: 14px;
-            margin-top: 1px;
+#subtitle_6 {
+    font-family: 'Cantata One', serif;
+    font-size: 1.7em;
+    color: RGB(70, 80, 80);
+    @include mobile {
+        font-size: 1em;
+    }
+    @include tablet {
+        font-size: 1.5em; 
+        margin-top: 12px;
     }
 }
+
 
 /*La palette du gout */
 
@@ -877,6 +881,7 @@ footer h3:hover {
     height: 300px;  
     margin-bottom: 20px;
     margin-top: 20px;
+    width: 100%;
         @include mobile {
             width: 100%;
             margin-bottom: 0px;
@@ -886,6 +891,16 @@ footer h3:hover {
             width: 100%;
             height: 300px;
     }
+}
+
+.trait4 { /*element deco*/
+    width: 34%;
+        @include mobile {
+            width: 25%;
+        }
+        @include tablet { 
+            width: 30%;
+    }    
 }
 
 /*soulignement des sous-titres*/
@@ -941,16 +956,20 @@ footer h3:hover {
     }
 }
 
-.title_5 {
-  font-family: 'Kalam', serif;
-  font-size: 1.5em;
-  font-style: italic;
-  color : RGB(70, 80, 80);
+#subtitle_7 {
+    font-family: 'Kalam', serif;
+    font-size: 1.7em;
+    color: RGB(70, 80, 80);
     @include mobile {
-      font-size: 14px;
-      margin-top: 10px;
+        font-size: 1em;
+    }
+    @include tablet {
+        font-size: 1.5em; 
+        margin-top: 12px;
     }
 }
+
+
 
 /*mentions legales*/
 .mention h5 {
