@@ -825,6 +825,32 @@ footer h3:hover {
             font-size: 1.2em;   
     }
 }
+#subtitle_4 {
+    font-family: 'Cantata One', serif;
+    font-size: 1.7em;
+    color: RGB(70, 80, 80);
+    @include mobile {
+        font-size: 1em;
+    }
+    @include tablet {
+        font-size: 1.5em; 
+        margin-top: 12px;
+    }
+}
+
+#subtitle_5 {
+    font-family: 'Cantata One', serif;
+    font-size: 1.7em;
+    color: RGB(70, 80, 80);
+    @include mobile {
+        font-size: 1em;
+    }
+    @include tablet {
+        font-size: 1.5em; 
+        margin-top: 12px;
+    }
+}
+
 #subtitle_6 {
     font-family: 'Cantata One', serif;
     font-size: 1.7em;
@@ -968,6 +994,31 @@ footer h3:hover {
     }
 }
 
+#subtitle_8 {
+    font-family: 'Kalam', serif;
+    font-size: 1.7em;
+    color: RGB(70, 80, 80);
+    @include mobile {
+        font-size: 1em;
+    }
+    @include tablet {
+        font-size: 1.5em; 
+        margin-top: 12px;
+    }
+}
+
+#subtitle_9 {
+    font-family: 'Kalam', serif;
+    font-size: 1.7em;
+    color: RGB(70, 80, 80);
+    @include mobile {
+        font-size: 1em;
+    }
+    @include tablet {
+        font-size: 1.5em; 
+        margin-top: 12px;
+    }
+}
 
 
 /*mentions legales*/

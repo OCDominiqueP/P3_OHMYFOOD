@@ -761,6 +761,30 @@ footer h3:hover {
       margin-right: 1.2em;
       font-size: 1.2em; } }
 
+#subtitle_4 {
+  font-family: 'Cantata One', serif;
+  font-size: 1.7em;
+  color: RGB(70, 80, 80); }
+  @media (max-width: 767px) {
+    #subtitle_4 {
+      font-size: 1em; } }
+  @media (min-width: 767px) and (max-width: 1023px) {
+    #subtitle_4 {
+      font-size: 1.5em;
+      margin-top: 12px; } }
+
+#subtitle_5 {
+  font-family: 'Cantata One', serif;
+  font-size: 1.7em;
+  color: RGB(70, 80, 80); }
+  @media (max-width: 767px) {
+    #subtitle_5 {
+      font-size: 1em; } }
+  @media (min-width: 767px) and (max-width: 1023px) {
+    #subtitle_5 {
+      font-size: 1.5em;
+      margin-top: 12px; } }
+
 #subtitle_6 {
   font-family: 'Cantata One', serif;
   font-size: 1.7em;
@@ -892,6 +916,30 @@ footer h3:hover {
       font-size: 1em; } }
   @media (min-width: 767px) and (max-width: 1023px) {
     #subtitle_7 {
+      font-size: 1.5em;
+      margin-top: 12px; } }
+
+#subtitle_8 {
+  font-family: 'Kalam', serif;
+  font-size: 1.7em;
+  color: RGB(70, 80, 80); }
+  @media (max-width: 767px) {
+    #subtitle_8 {
+      font-size: 1em; } }
+  @media (min-width: 767px) and (max-width: 1023px) {
+    #subtitle_8 {
+      font-size: 1.5em;
+      margin-top: 12px; } }
+
+#subtitle_9 {
+  font-family: 'Kalam', serif;
+  font-size: 1.7em;
+  color: RGB(70, 80, 80); }
+  @media (max-width: 767px) {
+    #subtitle_9 {
+      font-size: 1em; } }
+  @media (min-width: 767px) and (max-width: 1023px) {
+    #subtitle_9 {
       font-size: 1.5em;
       margin-top: 12px; } }
 
