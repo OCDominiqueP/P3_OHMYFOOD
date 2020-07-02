@@ -85,7 +85,11 @@ section{
             height: 350px;
             margin-top: 1px;
             margin-bottom: 1px;
-  }
+        }
+        @include tablet{
+            
+        }
+  
 }
 
 /*couleur de fond menus 1 à 3*/
@@ -106,12 +110,13 @@ section{
 .btn{
             &:hover{
             -webkit-transform: scale(1,2);
-                    transform: scale(1,2);
+                    transform: scale(1.5);
             opacity: 0.8;
             -webkit-transition: -webkit-transform 300ms;
             transition: -webkit-transform 300ms;
             transition: transform 300ms;
             transition: transform 300ms, -webkit-transform 300ms;
+            width: 100%;
     }
 }
         .btn1{
@@ -120,7 +125,7 @@ section{
             font-size: 1.5em;
             font-weight: normal;
                 @include mobile {
-                    font-size: 1.2em;
+                    font-size: 1.1em;
   }
 }
         .btn2{    
@@ -133,7 +138,7 @@ section{
             font-size: 1.5em;
             padding-top: 1.5em;
                 @include mobile {
-                    font-size: 1.2em;
+                    font-size: 1em;
   }
 }
             
@@ -143,10 +148,10 @@ section{
             background: -webkit-linear-gradient(left, #0229dd 5%, #0889fb 95%);
             -webkit-background-clip: text;
             color: transparent;
-            font-size: 1.5em;
+            font-size: 1.3em;
             padding-top: 1.5em;
                 @include mobile {
-                    font-size: 1.2em;
+                    font-size: 14px;
   }
 }
         .btn4{
@@ -158,7 +163,10 @@ section{
             color: transparent;
             font-size: 1.5em;
             padding-top: 1.5em;
+                @include mobile {
+                    font-size: 1em;
         }
+}
 
 .btn1 span{
     font-family: 'Sriracha', serif; 

@@ -104,12 +104,13 @@ section {
 /*animation identique sur chaque frame*/
 .btn:hover {
   -webkit-transform: scale(1, 2);
-  transform: scale(1, 2);
+  transform: scale(1.5);
   opacity: 0.8;
   -webkit-transition: -webkit-transform 300ms;
   transition: -webkit-transform 300ms;
   transition: transform 300ms;
-  transition: transform 300ms, -webkit-transform 300ms; }
+  transition: transform 300ms, -webkit-transform 300ms;
+  width: 100%; }
 
 .btn1 {
   color: #3c1218;
@@ -118,7 +119,7 @@ section {
   font-weight: normal; }
   @media (max-width: 767px) {
     .btn1 {
-      font-size: 1.2em; } }
+      font-size: 1.1em; } }
 
 .btn2 {
   color: #c77412;
@@ -131,7 +132,7 @@ section {
   padding-top: 1.5em; }
   @media (max-width: 767px) {
     .btn2 {
-      font-size: 1.2em; } }
+      font-size: 1em; } }
 
 .btn3 {
   color: #1789f9;
@@ -139,11 +140,11 @@ section {
   background: -webkit-linear-gradient(left, #0229dd 5%, #0889fb 95%);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding-top: 1.5em; }
   @media (max-width: 767px) {
     .btn3 {
-      font-size: 1.2em; } }
+      font-size: 14px; } }
 
 .btn4 {
   color: #72bf56;
@@ -153,6 +154,9 @@ section {
   color: transparent;
   font-size: 1.5em;
   padding-top: 1.5em; }
+  @media (max-width: 767px) {
+    .btn4 {
+      font-size: 1em; } }
 
 .btn1 span {
   font-family: 'Sriracha', serif; }
